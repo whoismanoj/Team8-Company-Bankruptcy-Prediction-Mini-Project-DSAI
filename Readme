@@ -1,5 +1,31 @@
-Hello,
+**SC 1015: Data Science Mini Project - Bankruptcy Prediction**
 
-This Repo will be used for DSAI Mini Project by three DSAI Students 😉
+Lab:
+Group: 
 
-edwin edited
+Team Members: 
+
+1.	Keong Wee Kiat Edwin
+2.	Xin Ping
+3.	Krishna
+
+Introduction
+
+This repository contains information referencing from Jupyter Notebooks, Datasets and Source Materials used as part of the project.
+In this project, Machine Learning are used for risk assessment in finance (i.e. to predict bankruptcy of companies).
+Following which, the mentioned prediction can be obtained using suitable models, through various Machine Learning techniques.
+
+The purpose of this ReadMe file highlights the key summary accomplished in this project. Of note, readers can refer to the Jupyter Ntebook, where
+the contents residing within the project offers in-depth descriptions which are not mentioned here. and 
+
+
+Table of Contents:
+
+1.	Problem Formulation
+2.	Data Preparation / Cleaning
+
+
+1. Problem Formulation
+
+Dataset Source: 
+Problem: 
