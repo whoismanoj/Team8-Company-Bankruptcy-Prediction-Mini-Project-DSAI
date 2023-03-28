@@ -4,9 +4,9 @@ Lab Group: PT1 (Team 8)
 
 Team Members: 
 
-1.	Krishnadas Manoj
-2.	Cao XingPing
-3.	Keong Wee Kiat Edwin
+a.  Krishnadas Manoj
+b.  Cao XingPing
+c.  Keong Wee Kiat Edwin
 
 Introduction
 
@@ -19,5 +19,5 @@ Table of Contents:
 
 1. Problem Formulation
 
-Dataset Source: 
-Problem: 
+Dataset Source: Company Bankruptcy Prediction from Kaggle
+Problem: What are the key variables that determine the success of the company?
