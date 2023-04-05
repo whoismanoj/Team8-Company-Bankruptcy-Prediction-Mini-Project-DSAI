@@ -14,10 +14,59 @@ This repository contains information referencing from Jupyter Notebooks, Dataset
 
 Table of Contents:
 
-1.	Problem Formulation
-2.	Data Preparation / Cleaning
+1.  Introduction
+2.  Problem Formulation
+3.  Data Preparation / Cleaning
+4.  Project FLow
+5.  Conclusion
 
-1. Problem Formulation
+1.  Introduction
+
+This is a project for Nanyang Technological Unviersity Singapore on SC1015 module (i.e. Introduction to Data Science and Artificial Intelligence). In this project, we chose to explore various machine learning models to predict the sucess of a company.
+
+2.  Problem Formulation
+
+What are the key variables that determine the success of the company, and are we able to detect companies that are in the midst of bankruptcy through the result of various NLP modelling techniques?
+
+3.  Data Preparation / Cleaning
 
 Dataset Source: Company Bankruptcy Prediction from Kaggle
-Problem: What are the key variables that determine the success of the company?
+
+Cleaned dataset: Please download from here
+
+4.  Project Flow
+
+a)  Preparation, Data Sampling, Exploratory Data Analysis
+b)  Data Modelling
+c)  Intelligent Decisioning
+d)  Results of our findings
+
+Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
