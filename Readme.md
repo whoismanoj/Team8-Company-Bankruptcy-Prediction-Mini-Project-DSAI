@@ -31,11 +31,11 @@ What are the key variables that determine the success of the company, and are we
 
 ### 3.  Data Preparation / Cleaning
 
-### Dataset Source: Company Bankruptcy Prediction from Kaggle
+Dataset Source: Company Bankruptcy Prediction from Kaggle. Please refer to the source here[https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction]
 
-### Dataset Description: The dataset used contains financial rations of 5,606 comapnies, of which 220 have gone bankrupt.
+Dataset Description: The dataset used contains financial rations of 5,606 comapnies, of which 220 have gone bankrupt.
 
-### Cleaned dataset: Please download from here
+Cleaned dataset: Please download from here
 
 ### 4.  Project Flow
 
@@ -46,7 +46,9 @@ d)  Results on findings and derived a conclusion
 
 ### Conclusion
 
-Our regression model consists of various predictors () and their coefficients were used to determine how much one variables have its impact on a company success.
+Our regression model consists of various important predictors (i.e. "Bankruptcy Label", "Net Income to Total Assets", ""Total Debt to Total Assests", "EBIT to Total Assets Ration", "Market Value to Book Value Ratio", "Working Capital to Total Assests Ratio", "Current Liability to Assets Ratio", Sales to Total Assets Ratio" and "Cash Flow to Total Assets Ratio") and their coefficients were used to determine how much one variables have its impact on a company success.
+
+On the other hand, the least relevant predictors were singled out to be (i.e. "Current Liability to CUrrent Assets", "Working Capital Turnover", "Working Capital to Fixed Assets", "Net Income to Total Assets", "Total Assets to GNP Price", "Quick Asset Ratio", "Borrowing Dependency", "Inventory and Accounts Receivable/Net Operating Revenue", "Operating Profit Per Person" and "Current Liability to Assets".
 
 ### Contributors
 
