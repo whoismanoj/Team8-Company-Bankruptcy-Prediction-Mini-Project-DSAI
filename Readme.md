@@ -58,6 +58,6 @@ To elaborate on our learning lesson.
 
 ### Contributors
 
-a.  Krishnadas Manoj - Predictive Modeling, Predictive Modeling and Presentation Slides
-b.  Cao XingPing - Data Preparation and Cleaning, Presentation Slides and Heatmap Visualisation
-c.  Keong Wee Kiat Edwin - Basic Visualization, Writeup and Presentation Slides
+1.  Krishnadas Manoj - Predictive Modeling, Predictive Modeling and Presentation Slides
+2.  Cao XingPing - Data Preparation and Cleaning, Presentation Slides and Heatmap Visualisation
+3.  Keong Wee Kiat Edwin - Basic Visualization, Writeup and Presentation Slides
