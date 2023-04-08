@@ -17,7 +17,7 @@ This repository contains information referencing from Jupyter Notebooks, Dataset
 1.  Introduction
 2.  Problem Formulation
 3.  Data Preparation / Cleaning
-4.  Project FLow
+4.  Project Flow
 5.  Conclusion
 6.  Contributors
 
