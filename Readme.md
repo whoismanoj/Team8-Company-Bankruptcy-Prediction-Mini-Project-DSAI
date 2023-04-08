@@ -35,7 +35,7 @@ Dataset Source: Company Bankruptcy Prediction from Kaggle. Please refer to the s
 
 Dataset Description: The dataset used contains financial rations of 5,606 comapnies, of which 220 have gone bankrupt.
 
-Cleaned dataset: Please download from here
+Cleaned dataset: Please download from [here](https://github.com/zentorno365/Company-Bankruptcy-Prediction-Mini-Project-DSAI/blob/main/Data_Source%20(cleaned)/data.csv)
 
 ### 4.  Project Flow
 
