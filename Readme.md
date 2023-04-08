@@ -54,7 +54,7 @@ To further explain on the regression model.
 
 ### Learning Lesson
 
-To eleaborate on our learning lesson.
+To elaborate on our learning lesson.
 
 ### Contributors
 
