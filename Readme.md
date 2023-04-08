@@ -1,4 +1,4 @@
-## SC 1015: Data Science Mini Project - Bankruptcy Prediction
+## SC 1015: Data Science Mini Project - Company Bankruptcy Prediction
 
 ### Lab Group: PT1 (Team 8)
 
