@@ -4,9 +4,9 @@
 
 ### Team Members: 
 
-a.  Krishnadas Manoj
-b.  Cao XingPing
-c.  Keong Wee Kiat Edwin
+1.  Krishnadas Manoj
+2.  Cao XingPing
+3.  Keong Wee Kiat Edwin
 
 ### Introduction
 
