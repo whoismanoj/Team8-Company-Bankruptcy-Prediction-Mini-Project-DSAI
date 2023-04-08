@@ -23,7 +23,7 @@ This repository contains information referencing from Jupyter Notebooks, Dataset
 
 ### 1.  Introduction
 
-This is a project for Nanyang Technological Unviersity Singapore on SC1015 module (i.e. Introduction to Data Science and Artificial Intelligence). In this project, we chose to explore various machine learning models to predict the sucess of a company. 
+This is a project for Nanyang Technological Unviersity Singapore on SC1015 module (i.e. Introduction to Data Science and Artificial Intelligence). In this project, we chose to explore various machine learning models to predict the success of a company. 
 
 ### 2.  Problem Formulation
 
