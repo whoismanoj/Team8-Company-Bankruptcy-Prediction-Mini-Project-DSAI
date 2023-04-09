@@ -29,13 +29,11 @@ This is a project for Nanyang Technological Unviersity Singapore on SC1015 modul
 
 What are the key variables that determine the success of the company, and are we able to detect companies that are in the midst of bankruptcy through the result of various NLP modelling techniques?
 
-### 3.  Data Preparation / Cleaning
+### 3.  Data Preparation
 
 Dataset Source: Company Bankruptcy Prediction from Kaggle. Please refer to the source [here.](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
 
 Dataset Description: The dataset used contains financial rations of 5,606 comapnies, of which 220 have gone bankrupt.
-
-Cleaned dataset: Please download from [here.](https://github.com/zentorno365/Company-Bankruptcy-Prediction-Mini-Project-DSAI/blob/main/Data_Source%20(cleaned)/data.csv)
 
 ### 4.  Project Flow
 
@@ -58,6 +56,6 @@ To elaborate on our learning lesson.
 
 ### Contributors
 
-1.  Krishnadas Manoj - Predictive Modeling, Predictive Modeling and Presentation Slides
+1.  Krishnadas Manoj - Predictive Modeling, Basic Visualization and Presentation Slides
 2.  Cao XingPing - Data Preparation and Cleaning, Presentation Slides and Heatmap Visualisation
 3.  Keong Wee Kiat Edwin - Basic Visualization, Writeup and Presentation Slides
