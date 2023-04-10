@@ -59,3 +59,6 @@ To elaborate on our learning lesson.
 1.  Krishnadas Manoj - Predictive Modeling, Basic Visualization and Presentation Slides
 2.  Cao XingPing - Data Preparation and Cleaning, Presentation Slides and Heatmap Visualisation
 3.  Keong Wee Kiat Edwin - Basic Visualization, Writeup and Presentation Slides
+
+
+![image](https://user-images.githubusercontent.com/128292326/230911485-3ba79440-843c-46f8-b13a-3331db1aa22d.png)
