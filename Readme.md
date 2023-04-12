@@ -27,7 +27,7 @@ This is a project for Nanyang Technological Unviersity Singapore on SC1015 modul
 
 ### 2.  Problem Formulation
 
-What are the key variables that determine the success of the company, and are we able to detect companies that are in the midst of bankruptcy through the result of various NLP modelling techniques?
+What are the key predictors that determine the success of the company, and are we able to detect companies that are in the midst of bankruptcy through the result of various NLP modelling techniques?
 
 ### 3.  Cleaning / Data Preparation
 
@@ -37,26 +37,32 @@ Dataset Description: The dataset used contains financial rations of 5,606 comapn
 
 A challenging aspect is that the dataset consists of too much information. It poses a challenge for us to analyse the complexity of data and modeling, that requires more computational resources which results in slower performance and longer processing time. 
 
-Apart from performing basic cleaning checks on our raw data, our approach is to first identify critical variables that are essential to the determining of the final result, which helps us to understand the structure and characteristics of the dataset before cleaning the dataset.
+Apart from performing basic cleaning checks on our raw data, our approach is to first identify critical predictors that are essential to the determining of the final result, which helps us to understand the structure and characteristics of the dataset before cleaning the dataset.
 
 ### 4.  Project Flow
 
-1.  Data Preparation: Clean and process the raw dataset
-2.  Model Selection : Select the most relevant models
-3.  Model Evaluation: Evaluate and report its performance metrics
-4.  Results on findings and derived a conclusion
+1.  Data Preparation: Basic cleaning and processing of raw dataset
+2.  Data Analysis: Determine the critical variables and do further cleaning to the dataset
+3.  Model Selection : Select the most relevant models
+4.  Model Evaluation: Evaluate and report its performance metrics
+5.  Results on findings and derived a conclusion
 
 ### Conclusion
 
-Our regression model consists of various important predictors (i.e. "Bankruptcy Label", "Net Income to Total Assets", ""Total Debt to Total Assests", "EBIT to Total Assets Ration", "Market Value to Book Value Ratio", "Working Capital to Total Assests Ratio", "Current Liability to Assets Ratio", Sales to Total Assets Ratio" and "Cash Flow to Total Assets Ratio") and their coefficients were used to determine how much one variables have its impact on a company success.
+Our regression model consists of 19 important predictors (i.e. "Operating Gross Margin", "Operating Profit Rate", "Research and development expense rate", "Cash flow rate", "Interest-bearing debt interest rate", "Revenue Per Share (Yuan ¥)", "Total Asset Growth Rate", "Cash Reinvestment %", "Borrowing dependency", "Average Collection Days", "Fixed Assets Turnover Frequency", "Allocation rate per person", "Working Capital/Equity", "Long-term Liability to Current Assets", "Total expense/Assets", "Cash Turnover Rate", "Fixed Assets to Assets", "Total assets to GNP price" and "Bankrupt?") and their coefficients were used to determine how much one variables have its impact on a company success.
 
-On the other hand, the least relevant predictors were singled out to be (i.e. "Current Liability to Current Assets", "Working Capital Turnover", "Working Capital to Fixed Assets", "Net Income to Total Assets", "Total Assets to GNP Price", "Quick Asset Ratio", "Borrowing Dependency", "Inventory and Accounts Receivable/Net Operating Revenue", "Operating Profit Per Person" and "Current Liability to Assets".
+On the other hand, the 77 least relevant predictors were singled out and filtered off, to help improves the quality of the data to achieve the effectiveness of data analysis and modeling.
 
-To further explain on the regression model.
+After deep analysis of the results from the begining, here's the summary of what we discovered and suggest:
+
+1.  ‘Liability-Assets Flag’ - If Total Liability exceeds Total Assets, there is a high chance of bankruptcy.
+2.  ‘Debt Ratio’, ‘Current Liability to Assets’, ‘Borrowing Dependency’, ‘Liability to equity’, ‘Expense to Assets’ these predictors have a good positive correlation with bankruptcy
+3.  ‘Net_Income_Flag’ only had value for one category in the data that we had. Thus, we could not utilize it.
+4.  'Net Income to Total Assets', 'ROA before interest and % after tax', 'Net worth/Assets', 'Persistent_EPS_in_the_Last_Four_Seasons', *'Retained_Earnings_to_Total_Assets' - these predictors are highly negatively correlated with bankruptcy.
 
 ### Learning Lesson
 
-To elaborate on our learning lesson.
+To begin with, there was high class imbalance in the data (i.e. Only 3.2 % of total records) were bankrupt companies. Notably, the minority class is too small to be modeled effectively. To solve this issue, we used a technique called "Oversampling", to balance the imbalanced dataset. SMOTE (Synthetic Miniority Oversampling Technique) was used, as it creates realistic synthetic data sample for the minority classes, by interpolating between the selected observation and the chosen neighbour, based on a random ratio. This help improves the accuracy of models trained on the imbalanced datasets.
 
 ### Contributors
 
