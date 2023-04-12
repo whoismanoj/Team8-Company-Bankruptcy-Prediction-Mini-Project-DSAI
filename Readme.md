@@ -64,6 +64,10 @@ After deep analysis of the results from the begining, here's the summary of what
 
 To begin with, there was high class imbalance in the data (i.e. Only 3.2 % of total records) were bankrupt companies. Notably, the minority class is too small to be modeled effectively. To solve this issue, we used a technique called "Oversampling", to balance the imbalanced dataset. SMOTE (Synthetic Miniority Oversampling Technique) was used, as it creates realistic synthetic data sample for the minority classes, by interpolating between the selected observation and the chosen neighbour, based on a random ratio. This help improves the accuracy of models trained on the imbalanced datasets.
 
+Following which, we combined a performance evaluation tool (i.e. Confusion Matrix) to summarizes the amount of correct and incorrect predictions made by the model on a test set, which is used to calculate various metrics, such as precision and recall.
+
+Through the aforementioned conclusion and learning lesson, we managed to meet the ojective by building a classifier that have the best predictive ability to identify unstable companies that might go bankrupt.
+
 ### Contributors
 
 1.  Krishnadas Manoj - Predictive Modeling, Basic Visualization and Presentation Slides
