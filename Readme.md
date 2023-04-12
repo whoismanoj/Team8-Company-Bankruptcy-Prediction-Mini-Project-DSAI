@@ -68,7 +68,7 @@ Following which, we combined a performance evaluation tool (i.e. Confusion Matri
 
 ![image](https://user-images.githubusercontent.com/128292326/231409055-e571384a-fc5b-40e4-97f3-8273ad187223.png)
 
-#*(Photo above shows the illustration of the heatmap, which illustrate the correlation between predictors.)
+# *(Photo above shows the illustration of the heatmap, which illustrate the correlation between predictors.)
 
 Through the aforementioned conclusion and learning lesson, we managed to meet the ojective by building a classifier that have the best predictive ability to identify unstable companies that might go bankrupt.
 
