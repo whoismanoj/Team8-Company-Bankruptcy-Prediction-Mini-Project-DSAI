@@ -66,6 +66,8 @@ To begin with, there was high class imbalance in the data (i.e. Only 3.2 % of to
 
 Following which, we combined a performance evaluation tool (i.e. Confusion Matrix) to summarizes the amount of correct and incorrect predictions made by the model on a test set, which is used to calculate various metrics, such as precision and recall.
 
+![image](https://user-images.githubusercontent.com/128292326/231409055-e571384a-fc5b-40e4-97f3-8273ad187223.png)
+
 Through the aforementioned conclusion and learning lesson, we managed to meet the ojective by building a classifier that have the best predictive ability to identify unstable companies that might go bankrupt.
 
 ### Contributors
