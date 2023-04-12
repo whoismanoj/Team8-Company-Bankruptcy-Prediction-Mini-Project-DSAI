@@ -58,7 +58,7 @@ After deep analysis of the results from the begining, here's the summary of what
 1.  ‘Liability-Assets Flag’ - If Total Liability exceeds Total Assets, there is a high chance of bankruptcy.
 2.  ‘Debt Ratio’, ‘Current Liability to Assets’, ‘Borrowing Dependency’, ‘Liability to equity’, ‘Expense to Assets’ these predictors have a good positive correlation with bankruptcy
 3.  ‘Net_Income_Flag’ only had value for one category in the data that we had. Thus, we could not utilize it.
-4.  'Net Income to Total Assets', 'ROA before interest and % after tax', 'Net worth/Assets', 'Persistent_EPS_in_the_Last_Four_Seasons', *'Retained_Earnings_to_Total_Assets' - these predictors are highly negatively correlated with bankruptcy.
+4.  'Net Income to Total Assets', 'ROA before interest and % after tax', 'Net worth/Assets', 'Persistent_EPS_in_the_Last_Four_Seasons', 'Retained_Earnings_to_Total_Assets' - these predictors are highly negatively correlated with bankruptcy.
 
 ### Learning Lesson
 
