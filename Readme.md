@@ -55,19 +55,28 @@ On the other hand, the 77 least relevant predictors were singled out and filtere
 
 After deep analysis of the results from the begining, here's the summary of what we discovered and suggest:
 
-1.  ‘Liability-Assets Flag’ - If Total Liability exceeds Total Assets, there is a high chance of bankruptcy.
-2.  ‘Debt Ratio’, ‘Current Liability to Assets’, ‘Borrowing Dependency’, ‘Liability to equity’, ‘Expense to Assets’ these predictors have a good positive correlation with bankruptcy
-3.  ‘Net_Income_Flag’ only had value for one category in the data that we had. Thus, we could not utilize it.
-4.  'Net Income to Total Assets', 'ROA before interest and % after tax', 'Net worth/Assets', 'Persistent_EPS_in_the_Last_Four_Seasons', 'Retained_Earnings_to_Total_Assets' - these predictors are highly negatively correlated with bankruptcy.
+1.  Working Capital / Total Assets: This measures the company's efficiency in utilizing its assets to generate revenue.
+
+2.  Retained Earnings / Total Assets: This measures the proportion of earnings that the company has reinvested into the business, indicating the company's long-term financial health.
+
+3.  EBIT / Total Assets: EBIT (Earnings Before Interest and Taxes) measures a company's operating profit, indicating its ability to generate revenue from its core operations.
+
+4.  Market Value / Book Value: This ratio measures the company's market value per share relative to its book value per share, indicating the market's perception of the company's value.
+
+5.  Sales / Total Assets: This measures the company's ability to generate revenue relative to its asset base.
 
 ### Learning Lesson
 
-To begin with, there was high class imbalance in the data (i.e. Only 3.2 % of total records) were bankrupt companies. Notably, the minority class is too small to be modeled effectively. To solve this issue, we used a technique called "Oversampling", to balance the imbalanced dataset. SMOTE (Synthetic Miniority Oversampling Technique) was used, as it creates realistic synthetic data sample for the minority classes, by interpolating between the selected observation and the chosen neighbour, based on a random ratio. This help improves the accuracy of models trained on the imbalanced datasets.
+To begin with, there was high class imbalance in the data (i.e. Only 3.2 % of total records) were bankrupt companies. Notably, the minority class is too small to be modeled effectively. To solve this issue, we used a technique called "Oversampling", to balance the imbalanced dataset. SMOTE (Synthetic Miniority Oversampling Technique) was used, as it creates realistic synthetic data sample for the minority classes, by interpolating between the selected observation and the chosen neighbour, based on a random ratio. This help improves the accuracy of models trained on the imbalanced datasets. 
+
+Thereafter, outliers were capped to 1st and 99th percentile and to avoid the discrepancies in the range and scale of the independent features, we used "MinMaxScaler" for assistance.
 
 Following which, we combined a performance evaluation tool (i.e. Confusion Matrix) to summarizes the amount of correct and incorrect predictions made by the model on a test set, which is used to calculate various metrics, such as precision and recall.
 
 ![image](https://user-images.githubusercontent.com/128292326/231409055-e571384a-fc5b-40e4-97f3-8273ad187223.png)
 #### <ins>(Photo above shows the illustration of the heatmap, which shows the correlation between predictors.)</ins>
+
+Notably, Best test "Recall" score of 93.5% was observed using SGD classifier and as such, this model was eventually chosen to be the primary evaluation metric model. Through "Recall", we can tell how many of the actual positive cases were predicted correctly with our model.
 
 Through the aforementioned conclusion and learning lesson, we managed to meet the ojective by building a classifier that have the best predictive ability to identify unstable companies that might go bankrupt.
 
