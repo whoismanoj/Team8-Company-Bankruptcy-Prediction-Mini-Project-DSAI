@@ -93,3 +93,5 @@ SMOTE - https://towardsdatascience.com/applying-smote-for-class-imbalance-with-j
 VIF - https://towardsdatascience.com/targeting-multicollinearity-with-python-3bd3b4088d0b <br>
 Model Comparsions - https://medium.com/@nischitasadananda/the-battle-between-logistic-regression-random-forest-classifier-xg-boost-and-support-vector-46d773c70f41 <br>
 
+
+Youtube Link to Presentation : https://youtu.be/4nLh8Sks0io
