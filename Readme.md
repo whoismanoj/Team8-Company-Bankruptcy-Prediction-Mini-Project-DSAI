@@ -76,7 +76,7 @@ Following which, we combined a performance evaluation tool (i.e. Confusion Matri
 ![image](https://user-images.githubusercontent.com/128292326/231409055-e571384a-fc5b-40e4-97f3-8273ad187223.png)
 #### <ins>(Photo above shows the illustration of the heatmap, which shows the correlation between predictors.)</ins>
 
-Notably, Best test "Recall" score of 93.5% was observed using SGD classifier and as such, this model was eventually chosen to be the primary evaluation metric model. Through "Recall", we can tell how many of the actual positive cases were predicted correctly with our model.
+Notably, Best test "Recall" score of 100% was observed using XGBoost classifier and as such, this model was eventually chosen to be the primary evaluation metric model. Through "Recall", we can tell how many of the actual positive cases were predicted correctly with our model.
 
 Through the aforementioned conclusion and learning lesson, we managed to meet the ojective by building a classifier that have the best predictive ability to identify unstable companies that might go bankrupt.
 
@@ -86,3 +86,9 @@ Through the aforementioned conclusion and learning lesson, we managed to meet th
 2.  Cao XingPing - Data Preparation and Cleaning, Presentation Slides and Heatmap Visualisation
 3.  Keong Wee Kiat Edwin - Basic Visualization, Writeup and Presentation Slides
 
+
+### References
+Dataset - https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction
+SMOTE - https://towardsdatascience.com/applying-smote-for-class-imbalance-with-just-a-few-lines-of-code-python-cdf603e58688
+VIF - https://towardsdatascience.com/targeting-multicollinearity-with-python-3bd3b4088d0b
+Model Comparsions - https://medium.com/@nischitasadananda/the-battle-between-logistic-regression-random-forest-classifier-xg-boost-and-support-vector-46d773c70f41
