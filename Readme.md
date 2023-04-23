@@ -56,7 +56,7 @@ Apart from performing basic cleaning checks on our raw data, our approach is to 
 2.  Data Analysis: Determine the critical variables and do further cleaning to the dataset
 3.  Model Selection : Select the most relevant models
 4.  Model Evaluation: Evaluate and report its performance metrics
-5.  Results on findings and derived a conclusion
+5.  Result on findings: Derived a conclusion
 
 ### Conclusion
 
