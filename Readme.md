@@ -63,21 +63,29 @@ Apart from performing basic cleaning checks on our raw data, our approach is to 
 
 <p align = "justify">
 Our regression model consists of 19 important predictors (i.e. "Operating Gross Margin", "Operating Profit Rate", "Research and development expense rate", "Cash flow rate", "Interest-bearing debt interest rate", "Revenue Per Share (Yuan ¥)", "Total Asset Growth Rate", "Cash Reinvestment %", "Borrowing dependency", "Average Collection Days", "Fixed Assets Turnover Frequency", "Allocation rate per person", "Working Capital/Equity", "Long-term Liability to Current Assets", "Total expense/Assets", "Cash Turnover Rate", "Fixed Assets to Assets", "Total assets to GNP price" and "Bankrupt?") and their coefficients were used to determine how much one variables have its impact on a company success.
+</p>
 
+<p align = "justify">
 On the other hand, the 77 least relevant predictors were singled out and filtered off, to help improves the quality of the data to achieve the effectiveness of data analysis and modeling.
+</p>
 
 After deep analysis of the results from the begining, here's the summary of what we discovered and suggest:
 
 1.  Working Capital / Total Assets: This measures the company's efficiency in utilizing its assets to generate revenue.
 
+<p align = "justify">
 2.  Retained Earnings / Total Assets: This measures the proportion of earnings that the company has reinvested into the business, indicating the company's long-term financial health.
+</p>
 
+<p align = "justify">
 3.  EBIT / Total Assets: EBIT (Earnings Before Interest and Taxes) measures a company's operating profit, indicating its ability to generate revenue from its core operations.
+</p>
 
+<p align = "justify">
 4.  Market Value / Book Value: This ratio measures the company's market value per share relative to its book value per share, indicating the market's perception of the company's value.
+</p>
 
 5.  Sales / Total Assets: This measures the company's ability to generate revenue relative to its asset base.
-</p>
 
 ### Learning Lesson
 
