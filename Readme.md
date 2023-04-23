@@ -1,4 +1,4 @@
-<div style = "text-align: justify">
+<p align = "justify">
   
 ## SC 1015: Data Science Mini Project - Company Bankruptcy Prediction
 
@@ -98,4 +98,4 @@ Model Comparsions - https://medium.com/@nischitasadananda/the-battle-between-log
 
 Youtube Link to Presentation : https://youtu.be/4nLh8Sks0io
   
- </div>
+ </p>
