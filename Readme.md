@@ -37,9 +37,7 @@ What are the key predictors that determine the success of the company, and are w
 
 ### 3.  Cleaning / Data Preparation
 
-<p align = "justify">
 Dataset Source: Company Bankruptcy Prediction from Kaggle. Please refer to the source [here.](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
-</p>
 
 Dataset Description: The dataset used contains financial rations of 5,606 comapnies, of which 220 have gone bankrupt.
 
