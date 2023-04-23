@@ -69,7 +69,9 @@ Our regression model consists of 19 important predictors (i.e. "Operating Gross 
 On the other hand, the 77 least relevant predictors were singled out and filtered off, to help improves the quality of the data to achieve the effectiveness of data analysis and modeling.
 </p>
 
+<p align = "justify">
 After deep analysis of the results from the begining, here's the summary of what we discovered and suggest:
+</p>
 1.  Working Capital / Total Assets: This measures the company's efficiency in utilizing its assets to generate revenue.
 
 <p align = "justify">
