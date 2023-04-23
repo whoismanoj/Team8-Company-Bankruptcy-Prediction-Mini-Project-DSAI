@@ -39,11 +39,15 @@ What are the key predictors that determine the success of the company, and are w
 
 <p align = "justify">
 Dataset Source: Company Bankruptcy Prediction from Kaggle. Please refer to the source [here.](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
+</p>
 
 Dataset Description: The dataset used contains financial rations of 5,606 comapnies, of which 220 have gone bankrupt.
 
+<p align = "justify">
 A challenging aspect is that the dataset consists of too much information. It poses a challenge for us to analyse the complexity of data and modeling, that requires more computational resources which results in slower performance and longer processing time. 
+</p>
 
+<p align = "justify">
 Apart from performing basic cleaning checks on our raw data, our approach is to first identify critical predictors that are essential to the determining of the final result, which helps us to understand the structure and characteristics of the dataset before cleaning the dataset.
 </p>
 
