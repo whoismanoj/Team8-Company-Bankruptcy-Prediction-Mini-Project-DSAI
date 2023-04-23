@@ -75,6 +75,7 @@ After deep analysis of the results from the begining, here's the summary of what
 1.  Working Capital / Total Assets: This measures the company's efficiency in utilizing its assets to generate revenue.
 
 <p align = "justify">
+  
 2.  Retained Earnings / Total Assets: This measures the proportion of earnings that the company has reinvested into the business, indicating the company's long-term financial health.
 </p>
 
