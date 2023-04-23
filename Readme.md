@@ -39,7 +39,7 @@ What are the key predictors that determine the success of the company, and are w
 
 Dataset Source: Company Bankruptcy Prediction from Kaggle. Please refer to the source [here.](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
 
-Dataset Description: The dataset used contains financial rations of 5,606 comapnies, of which 220 have gone bankrupt.
+Dataset Description: The dataset used contains financial ratios of 5,606 comapnies, of which 220 have gone bankrupt.
 
 <p align = "justify">
 A challenging aspect is that the dataset consists of too much information. It poses a challenge for us to analyse the complexity of data and modeling, that requires more computational resources which results in slower performance and longer processing time. 
