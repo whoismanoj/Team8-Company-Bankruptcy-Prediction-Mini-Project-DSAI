@@ -124,7 +124,6 @@ Through the aforementioned conclusion and learning lesson, we managed to meet th
 
 
 ### References
-Dataset - https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction <br>
 SMOTE - https://towardsdatascience.com/applying-smote-for-class-imbalance-with-just-a-few-lines-of-code-python-cdf603e58688 <br>
 VIF - https://towardsdatascience.com/targeting-multicollinearity-with-python-3bd3b4088d0b <br>
 Model Comparsions - https://medium.com/@nischitasadananda/the-battle-between-logistic-regression-random-forest-classifier-xg-boost-and-support-vector-46d773c70f41 <br>
