@@ -70,7 +70,6 @@ On the other hand, the 77 least relevant predictors were singled out and filtere
 </p>
 
 After deep analysis of the results from the begining, here's the summary of what we discovered and suggest:
-
 1.  Working Capital / Total Assets: This measures the company's efficiency in utilizing its assets to generate revenue.
 
 <p align = "justify">
