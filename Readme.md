@@ -1,5 +1,3 @@
-<p align = "justify">
-  
 ## SC 1015: Data Science Mini Project - Company Bankruptcy Prediction
 
 ### Lab Group: PT1 (Team 8)
@@ -12,7 +10,9 @@
 
 ### Introduction
 
+<p align = "justify">
 This repository contains information referencing from Jupyter Notebooks, Datasets and Source Materials used as part of the project. In this project, Machine Learning are used for risk assessment in the prediction for bankruptcy of companies. Following which, the mentioned prediction can be obtained using suitable models, through various Machine Learning techniques. The purpose of this ReadMe file highlights the key summary accomplished in this project. Of note, readers can refer to the Jupyter Notebook, where the contents residing within the project offers in-depth descriptions, which are not mentioned here.
+</p>
 
 ### Table of Contents:
 
@@ -98,4 +98,3 @@ Model Comparsions - https://medium.com/@nischitasadananda/the-battle-between-log
 
 Youtube Link to Presentation : https://youtu.be/4nLh8Sks0io
   
- </p>
