@@ -1,4 +1,5 @@
 <div style = "text-align: justify">
+  
 ## SC 1015: Data Science Mini Project - Company Bankruptcy Prediction
 
 ### Lab Group: PT1 (Team 8)
