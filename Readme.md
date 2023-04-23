@@ -84,7 +84,6 @@ After deep analysis of the results from the begining, here's the summary of what
 <p align = "justify">
 4.  Market Value / Book Value: This ratio measures the company's market value per share relative to its book value per share, indicating the market's perception of the company's value.
 </p>
-
 5.  Sales / Total Assets: This measures the company's ability to generate revenue relative to its asset base.
 
 ### Learning Lesson
