@@ -22,6 +22,7 @@ This repository contains information referencing from Jupyter Notebooks, Dataset
 4.  Project Flow
 5.  Conclusion
 6.  Contributors
+7.  References
 
 ### 1.  Introduction
 
@@ -32,7 +33,7 @@ This is a project for Nanyang Technological Unviersity Singapore on SC1015 modul
 ### 2.  Problem Formulation
 
 <p align = "justify">
-What are the key predictors that determine the success of the company, and are we able to detect companies that are in the midst of bankruptcy through the result of various NLP modelling techniques?
+What are the key predictors that determine the success of the company, and are we able to detect companies that are in the midst of bankruptcy through the result of various Natural Language Processing (NLP) modelling techniques?
 </p>
 
 ### 3.  Cleaning / Data Preparation
